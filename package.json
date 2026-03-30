@@ -1,0 +1,31 @@
+{
+  "name": "placeholder",
+  "version": "1.0.0",
+  "description": "Local placeholder image generator - CLI & API",
+  "main": "dist/index.js",
+  "bin": {
+    "placeholder": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "serve": "node dist/index.js --serve"
+  },
+  "keywords": [
+    "placeholder",
+    "image",
+    "avatar",
+    "thumbnail",
+    "banner",
+    "sharp"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  }
+}
